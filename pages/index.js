@@ -33,7 +33,7 @@ export default function Home() {
           <div>
             <div className="h-screen flex flex-col items-center justify-center" style={{backgroundImage: [`linear-gradient(rgba(15,23,42,0.9), rgba(15,23,42,0.9))`, `url('bg.gif')`], backgroundSize: `cover`}}>
               <h1 className="text-6xl font-bold text-indigo-500 no-select" onClick={handleClick}>歡迎</h1>
-              <p className="text-xl font-medium mt-4">這是一個主頁</p>{showMessage && (<p className="text-xl font-medium mt-4">恭喜!你找到了彩蛋!</p>)}
+              <p className="text-xl font-medium mt-4">這是一個主頁</p>{showMessage && (<Link href="https://info.xiayue.tw" className="text-xl font-medium mt-4">恭喜!你找到了彩蛋!</Link>)}
             </div>
             <div className="flex flex-col items-center p-10 pt-10">
               <h1 className="text-4xl font-bold pt-10">關於我</h1>
