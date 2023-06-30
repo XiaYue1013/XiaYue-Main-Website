@@ -38,13 +38,16 @@ export default function Home() {
             <div className="flex flex-col items-center p-10 pt-10">
               <h1 className="text-4xl font-bold pt-10">關於我</h1>
               <p className="text-lg font-light leading-loose p-5">
-                我的名字是XiaYue，我是一位充滿熱情的網站開發人員，致力於創建美觀且實用的網站
+                我的名字是XiaYue，我是一位網站開發人員，致力於創建美觀且實用的網站
               </p>
               <p className="text-lg font-light leading-loose p-5">
                 我擁有多種程序語言的經驗，並且一直在尋求提升我的技能和接受新挑戰
               </p>
               <p className="text-lg font-light leading-loose p-5">
-                我有空時，我喜歡寫程式
+                在閒暇之餘，我會寫些程式
+              </p>
+              <p className="text-lg font-light leading-loose p-5">
+                另外，有玩VALORANT的可以帶我嗎? 我很爛 RIOT ID: XiaYue#7542
               </p>
               <div className="flex flex-col items-center mt-10">
                 <h2 className="text-2xl font-bold">聯繫我</h2>
@@ -52,7 +55,7 @@ export default function Home() {
                   <Link href='https://discord.com/users/536445172247167016/' className="text-base font-light leading-loose">
                     <FaDiscord className="mr-2 text-4xl" />
                   </Link>
-                  <Link href='mailto:support@xiayue.ml' className="text-base font-light leading-loose">
+                  <Link href='mailto:admin@xiayue.tw' className="text-base font-light leading-loose">
                     <FaEnvelope className="text-4xl mr-2" />
                   </Link>
                   <Link href='https://github.com/XiaYue1013' className="text-base font-light leading-loose">
