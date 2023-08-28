@@ -43,12 +43,6 @@ export default function Home() {
               <p className="text-lg font-light leading-loose p-5">
                 我擁有多種程序語言的經驗，並且一直在尋求提升我的技能和接受新挑戰
               </p>
-              <p className="text-lg font-light leading-loose p-5">
-                在閒暇之餘，我會寫些程式
-              </p>
-              <p className="text-lg font-light leading-loose p-5">
-                另外，有玩VALORANT的可以帶我嗎? 我很爛 RIOT ID: XiaYue#7542
-              </p>
               <div className="flex flex-col items-center mt-10">
                 <h2 className="text-2xl font-bold">聯繫我</h2>
                 <div className="flex items-center mb-2 text-white pt-4">
