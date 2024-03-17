@@ -26,6 +26,7 @@ export default function Home() {
         <title>XiaYue的個人網站</title>
         <meta name="description" content="就是個個人網站" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-adsense-account" content="ca-pub-4677299438632389">
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
